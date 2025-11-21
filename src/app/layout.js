@@ -12,8 +12,8 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "// TODO: Add page title",
-  description: "// TODO: Add site description",
+  title: "Mohak Pawar's Portfolio",
+  description: "Mohak Pawar's Portfolio",
 };
 
 export default function RootLayout({ children }) {
