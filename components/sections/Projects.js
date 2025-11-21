@@ -1,5 +1,6 @@
 'use client';
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowUpRight, ExternalLink } from "lucide-react";
 
@@ -8,8 +9,9 @@ const projects = [
     id: 1,
     title: "Blaze NFT Marketplace",
     description: "Full-stack marketplace with custom ERC-721 contracts, IPFS pinning, and live mint dashboard.",
-    chains: ["Ethereum", "Base"],
+    chains: ["Ethereum"],
     href: "https://blaze-marketplace-psi.vercel.app/",
+    image: "/id1-preview.png",
   },
   {
     id: 2,
@@ -66,10 +68,24 @@ export function Projects() {
               whileHover={{ y: -12 }}
             >
               <div className="relative h-40 w-full overflow-hidden rounded-2xl border border-white/5 bg-black/60">
-                <span className="absolute inset-0 bg-gradient-to-br from-cyan-400/10 via-transparent to-purple-400/10" />
-                <p className="relative flex h-full w-full items-center justify-center text-xs uppercase tracking-[0.4em] text-white/40">
-                  Preview coming soon
-                </p>
+                {project.image ? (
+                  <Image
+                    src={project.image}
+                    alt={`${project.title} preview`}
+                    fill
+                    sizes="(min-width: 768px) 320px, 85vw"
+                    className="object-cover"
+                    priority={project.id === 1}
+                  />
+                ) : (
+                  <p className="relative flex h-full w-full items-center justify-center text-xs uppercase tracking-[0.4em] text-white/40">
+                    Preview coming soon
+                  </p>
+                )}
+                <span
+                  aria-hidden="true"
+                  className="absolute inset-0 bg-gradient-to-br from-cyan-400/10 via-transparent to-purple-400/10"
+                />
                 <div className="matrix-overlay" />
               </div>
               <div className="mt-6 flex flex-1 flex-col gap-3">
