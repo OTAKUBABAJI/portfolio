@@ -3,10 +3,10 @@
 import { Github, Linkedin, Twitter, Link as LinkIcon } from "lucide-react";
 
 const socials = [
-  { icon: Github, label: "GitHub", href: "#" },
-  { icon: Twitter, label: "Twitter", href: "#" },
+  { icon: Github, label: "GitHub", href: "https://github.com/OTAKUBABAJI" },
+  { icon: Twitter, label: "Twitter", href: "https://x.com/MohakPawar_dev" },
   { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/mohak-pawar-407686218/" },
-  { icon: LinkIcon, label: "Etherscan", href: "#" },
+  { icon: LinkIcon, label: "Etherscan", href: "https://portfolio-iota-sepia-feyijzub8x.vercel.app/" },
 ];
 
 export function Footer() {
