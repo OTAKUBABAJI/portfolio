@@ -15,16 +15,16 @@ const projects = [
   },
   {
     id: 2,
-    title: "ERC-20 Tokens + Staking Suite",
-    description: "Suite of audited ERC-20 tokens with staking rewards, Foundry test harness, and deployment scripts.",
+    title: "Retro Arcade Rewards",
+    description: "On-chain retro game with NFT minting, wallet connect, and capped token-claim system that enforces per-player limits.",
     chains: ["Ethereum"],
-    href: "#",
+    href: "https://retro-arcade.example.com",
   },
   {
     id: 3,
     title: "Weather Oracle dApp",
     description: "Hybrid dApp pulling weather feeds on-chain with Hardhat automation and minimalist Next.js front-end.",
-    chains: ["Base"],
+    chains: ["Ethereum"],
     href: "#",
   },
 ];
