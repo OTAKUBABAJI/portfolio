@@ -18,7 +18,8 @@ const projects = [
     title: "Retro Arcade Rewards",
     description: "On-chain retro game with NFT minting, wallet connect, and capped token-claim system that enforces per-player limits.",
     chains: ["Ethereum"],
-    href: "https://retro-arcade.example.com",
+    href: "https://kuntaro-s-hustle.vercel.app/",
+    image:"kuntaro's hustle image.png"
   },
   {
     id: 3,
