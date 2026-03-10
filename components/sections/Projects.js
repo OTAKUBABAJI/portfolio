@@ -19,14 +19,15 @@ const projects = [
     description: "On-chain retro game with NFT minting, wallet connect, and capped token-claim system that enforces per-player limits.",
     chains: ["Ethereum"],
     href: "https://kuntaro-s-hustle.vercel.app/",
-    image:"kuntaro's hustle image.png"
+    image: "/kuntaro's hustle image.png"
   },
   {
     id: 3,
-    title: "Weather Oracle dApp",
-    description: "Hybrid dApp pulling weather feeds on-chain with Hardhat automation and minimalist Next.js front-end.",
-    chains: ["Ethereum"],
-    href: "#",
+    title: "CreditFlow",
+    description: "Web3 liquidity protocol enabling SMEs to tokenize pending invoices as NFTs for instant cash advances. Features an on-chain reputation system, global USDC liquidity pools, and deployed on Creditcoin Testnet.",
+    chains: ["Creditcoin Testnet"],
+    href: "https://creditfloww.vercel.app/",
+    image: "/creditflow_preview.png",
   },
 ];
 
