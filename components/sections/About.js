@@ -2,19 +2,15 @@
 
 import { motion } from "framer-motion";
 
-const summary = `Self-taught blockchain developer currently shipping on Ethereum and Base.
+const summary = `Self-taught blockchain developer currently building decentralized applications and smart contract systems across the Web3 ecosystem.
 
-I’ve built and deployed:
-• Blaze NFT Marketplace (full-stack dApp with Ethers + IPFS)
-• Multiple ERC-20 tokens and staking contracts
-• Weather oracle dApp
-All contracts tested with Foundry, scripts ready, frontends live.
+I’m currently working as a Blockchain Developer Intern at PitchMatter Ventures (Dubai) where I contribute to smart contract development, Web3 integrations, and production-level decentralized applications.
 
-Still grinding every day – learning Rust/Solana on the side, but my production experience is 100% Ethereum ecosystem right now.
+I enjoy designing systems that combine smart contracts, decentralized finance mechanics, and real user interfaces. My focus is building complete end-to-end Web3 products — from Solidity contracts to frontend dApps. My development workflow includes Solidity, Hardhat, Foundry testing, Wagmi/Viem integrations, and React-based Web3 frontends.
 
-Looking for junior / intern roles or paid freelance gigs where I can write, test, and ship real smart contracts while leveling up fast.
+I’m passionate about open-source collaboration, DeFi protocols, and building real on-chain applications that solve practical problems.
 
-If you need someone who actually finishes what he starts and replies in minutes – let’s talk.`;
+Currently open to junior blockchain roles, freelance smart contract work, and Web3 collaborations where I can continue shipping production-level systems and growing as a developer.`;
 
 export function About() {
   return (
