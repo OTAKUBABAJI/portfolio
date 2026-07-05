@@ -2,7 +2,9 @@ import { Navbar } from "../../components/Navbar";
 import { ParticlesBackground } from "../../components/ParticlesBackground";
 import { Hero } from "../../components/sections/Hero";
 import { About } from "../../components/sections/About";
+import { Experience } from "../../components/sections/Experience";
 import { Projects } from "../../components/sections/Projects";
+import { Achievements } from "../../components/sections/Achievements";
 import { Skills } from "../../components/sections/Skills";
 import { Contact } from "../../components/sections/Contact";
 import { Footer } from "../../components/sections/Footer";
@@ -18,7 +20,9 @@ export default function Home() {
         <main className="mx-auto flex max-w-6xl flex-col">
           <Hero />
           <About />
+          <Experience />
           <Projects />
+          <Achievements />
           <Skills />
           <Contact />
         </main>

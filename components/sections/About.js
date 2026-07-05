@@ -2,15 +2,13 @@
 
 import { motion } from "framer-motion";
 
-const summary = `Self-taught blockchain developer currently building decentralized applications and smart contract systems across the Web3 ecosystem.
+const summary = `Blockchain developer building end-to-end Web3 products — from Solidity contracts to the dApps people actually use.
 
-I’m currently working as a Blockchain Developer Intern at PitchMatter Ventures (Dubai) where I contribute to smart contract development, Web3 integrations, and production-level decentralized applications.
+I’m currently a full-time Blockchain Developer at Petition.io (ZK Systems), where I build decentralized KYC using zero-knowledge proofs — verifying identity without exposing user data. I work with Privado and Polygon ID for verifiable credentials, design attestation-based identity architecture, and build aggregation logic for multi-source attestations with a smoother ZK onboarding UX.
 
-I enjoy designing systems that combine smart contracts, decentralized finance mechanics, and real user interfaces. My focus is building complete end-to-end Web3 products — from Solidity contracts to frontend dApps. My development workflow includes Solidity, Hardhat, Foundry testing, Wagmi/Viem integrations, and React-based Web3 frontends.
+Before Petition.io I shipped Ethereum dApps at PitchMatter Ventures with Solidity and Hardhat — contract optimization, testing, and Wagmi/Viem integrations into React frontends.
 
-I’m passionate about open-source collaboration, DeFi protocols, and building real on-chain applications that solve practical problems.
-
-Currently open to junior blockchain roles, freelance smart contract work, and Web3 collaborations where I can continue shipping production-level systems and growing as a developer.`;
+My focus is systems that combine smart contracts, DeFi mechanics, privacy, and real interfaces. I care about clean repos, gas-conscious contracts, and on-chain products that solve practical problems.`;
 
 export function About() {
   return (

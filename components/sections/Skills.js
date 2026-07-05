@@ -4,29 +4,27 @@ import { motion } from "framer-motion";
 
 const categories = [
   {
-    title: "Blockchain / Smart Contracts",
+    title: "Smart Contracts",
     items: [
       "Solidity",
       "Hardhat",
+      "Foundry",
       "OpenZeppelin",
-      "Ethers.js",
-      "wagmi",
-      "viem",
-      "IPFS",
-      "NFT.Storage",
+      "Gas Optimization",
+      "Rust (Basic)",
     ],
   },
   {
-    title: "Frontend",
-    items: ["React", "Next.js", "Tailwind CSS"],
+    title: "Zero-Knowledge & Identity",
+    items: ["ZK Proofs", "Polygon ID", "Privado", "Verifiable Credentials"],
   },
   {
-    title: "Tools & Infra",
-    items: ["Git", "GitHub", "MetaMask", "Alchemy", "Infura"],
+    title: "Web3 & Frontend",
+    items: ["Wagmi", "Viem", "Ethers.js", "Web3.js", "React", "Next.js", "Tailwind CSS"],
   },
   {
-    title: "Chains",
-    items: ["Ethereum", "Base"],
+    title: "Chains & Infra",
+    items: ["Ethereum", "EVM", "Sepolia", "Creditcoin", "MetaMask", "Alchemy"],
   },
 ];
 

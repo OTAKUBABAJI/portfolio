@@ -4,9 +4,9 @@ import { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { Button } from "../ui/button";
 
-const heroEyebrow = "Based in India · Available remote";
+const heroEyebrow = "Based in India · Full-time @ Petition.io";
 const heroName = "Mohak Pawar";
-const heroTagline = "Full-stack blockchain developer crafting production-ready smart contracts and sleek dApps.";
+const heroTagline = "Blockchain developer building zero-knowledge identity systems, DeFi protocols, and production-grade smart contracts.";
 
 function useTypedValue(value, fallback) {
   const target = useMemo(() => value || fallback, [value, fallback]);
